@@ -1,5 +1,7 @@
 # dsh-audit-mode
 
+0.6.1 已适配 DSH `0.1.3-alpha.2`，冷会话检查使用新版持久化句柄，读取结束后关闭句柄。
+
 DeepSeek Harness (DSH) 的**第五模式**：preset id `audit`，把 PTC 的 `code`
 呈现、独立审计和用户批准后的 Cordis 修复回路组合在同一个会话里。
 

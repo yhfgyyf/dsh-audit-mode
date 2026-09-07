@@ -1,5 +1,8 @@
 # dsh-audit-mode
 
+Version 0.6.1 supports DSH `0.1.3-alpha.2`, including cold-session reads through
+the new persistence handles. Read handles are always closed after inspection.
+
 The **fifth mode** of DeepSeek Harness (DSH): preset id `audit`, combining
 PTC *code* presentation, independent review, and a human-approved Cordis
 remediation loop.
